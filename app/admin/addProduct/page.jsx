@@ -6,7 +6,7 @@ import { faCloudArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { toast } from "react-toastify";
 import axios from "axios";
 
-const page = () => {
+const Page = () => {
   const [image, setImage] = useState(null);
   const [data, setData] = useState({
     title: "",
@@ -129,4 +129,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

@@ -12,7 +12,7 @@ import {
 import Footer from "@/Components/Footer";
 import axios from "axios";
 
-const page = ({ params }) => {
+const Page = ({ params }) => {
   const [data, setData] = useState(null);
 
   const fetchBlogsData = async () => {
@@ -100,4 +100,4 @@ const page = ({ params }) => {
   );
 };
 
-export default page;
+export default Page;
